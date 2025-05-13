@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 68e91a955efe04085922337eb01d7626
+TrueTypeFontImporter:
+  serializedVersion: 2
+  fontSize: 10
+  forceTextureCase: -2
+  characterSpacing: 1
+  characterPadding: 0
+  includeFontData: 1
+  use2xBehaviour: 1
+  fontNames: []
+  customCharacters: 
+  fontRenderingMode: 1
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 153556
+  packageName: Vehicle Physics Pro - Community Edition
+  packageVersion: 1.5
+  assetPath: Assets/Vehicle Physics Pro/Sdk/Fonts/VeraMono.ttf
+  uploadId: 724817
