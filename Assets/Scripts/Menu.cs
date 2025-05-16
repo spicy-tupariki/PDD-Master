@@ -28,9 +28,14 @@ public class Menu : MonoBehaviour
 
     public void Exit()
     {
+        Scroll.SetActive(false);
         Application.Quit();
     }
 
+    public void ShowAbout()
+    {
+        Scroll.SetActive(false);
+    }
     public void ShowScroll()
     {
         Scroll.SetActive(true);

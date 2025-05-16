@@ -23,6 +23,12 @@ public class Crossroad : MonoBehaviour
     public Renderer lightMiddleEnemy2;
     public Renderer lightBottomEnemy2;
 
+    private void Start()
+    {
+        switchTime = 6f;
+        currentTime = 0f;
+        currentWay = 1;
+}
     public void FixedUpdate()
     {
         currentTime += Time.deltaTime;
@@ -30,7 +36,6 @@ public class Crossroad : MonoBehaviour
         {
             MakeSwitchLight();
             currentTime = 0f;
-            Debug.Log(currentWay);
         }
         else if (currentTime > switchTime)
         {

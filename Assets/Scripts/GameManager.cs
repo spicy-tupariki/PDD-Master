@@ -109,7 +109,7 @@ public class GameManager : MonoBehaviour
         answerText.gameObject.SetActive(false);
         acceptButton.gameObject.SetActive(false);
         currentQuestionIndex++;
-        if (currentQuestionIndex<selectedCategory.questions.Length)
+        if (currentQuestionIndex < selectedCategory.questions.Length)
             DisplayQuestion();
         else
         {
@@ -117,7 +117,7 @@ public class GameManager : MonoBehaviour
             {
                 replyButtons[i].gameObject.SetActive(false);
             }
-            answerText.text = "Молодец, а теперь пройди практику";
+            answerText.text = "Молодец, а теперь пройди практику        ";
             answerText.gameObject.SetActive(true);
             GoNextButton.gameObject.SetActive(true);
             questionImage.gameObject.SetActive(false);

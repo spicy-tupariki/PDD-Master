@@ -9,7 +9,6 @@ public class RightWallAI : MonoBehaviour
         if (other.CompareTag("carL"))
         {
             AiCarController.ReturnLeft(other.gameObject);
-            Debug.Log("hui");
         }
     }
 }

@@ -77,6 +77,21 @@ public class AiCarController : MonoBehaviour
     public Transform LStart;
     public Transform RStart;
 
+    public static bool CanMoveBlock1 = false;
+    public Transform Move1FLTr;
+    public Transform Move1FRTr;
+    public Transform Move1RLTr;
+    public Transform Move1RRTr;
+
+    public WheelCollider Move1FL;
+    public WheelCollider Move1FR;
+    public WheelCollider Move1RL;
+    public WheelCollider Move1RR;
+
+    private void Start()
+    {
+        CanMove = false;
+    }
     public void FixedUpdate()
     {
         if (!CanMove)
@@ -122,13 +137,21 @@ public class AiCarController : MonoBehaviour
         MoveCar(LGreyFL, LGreyFR, LGreyRL, LGreyRR, LGreyFLTr, LGreyFRTr, LGreyRLTr, LGreyRRTr);
         MoveCar(LPurpleFL, LPurpleFR, LPurpleRL, LPurpleRR, LPurpleFLTr, LPurpleFRTr, LPurpleRLTr, LPurpleRRTr);
         MoveCar(LYellowFL, LYellowFR, LYellowRL, LYellowRR, LYellowFLTr, LYellowFRTr, LYellowRLTr, LYellowRRTr);
+
+        if (CanMoveBlock1)
+        {
+            MoveCar(Move1FL, Move1FR, Move1RL, Move1RR, Move1FLTr, Move1FRTr, Move1RLTr, Move1RRTr, angle:15);
+        }
+
     }
     
     private void MoveCar(WheelCollider FL, WheelCollider FR, WheelCollider RL, WheelCollider RR,
-        Transform FLTr, Transform FRTr, Transform RLTr, Transform RRTr)
+        Transform FLTr, Transform FRTr, Transform RLTr, Transform RRTr, int angle=0)
     {
         FL.motorTorque = forse;
         FR.motorTorque = forse;
+        FL.steerAngle = angle;
+        FR.steerAngle = angle;
         RotateWheel(FL, FLTr);
         RotateWheel(FR, FRTr);
         RotateWheel(RL, RLTr);

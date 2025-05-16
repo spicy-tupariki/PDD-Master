@@ -9,7 +9,6 @@ public class LeftWallAI : MonoBehaviour
         if (other.CompareTag("carR"))
         {
             AiCarController.ReturnRight(other.gameObject);
-            Debug.Log("dsaasd");
         }
     }
 }

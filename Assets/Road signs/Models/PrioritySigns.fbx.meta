@@ -1,0 +1,354 @@
+fileFormatVersion: 2
+guid: 67168ee50073b2244988e3c0680c5a1a
+timeCreated: 1462913363
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: 2.1
+    100002: 2.2
+    100004: 2.3.1
+    100006: 2.3.2
+    100008: 2.3.3
+    100010: 2.3.4
+    100012: 2.3.5
+    100014: 2.3.6
+    100016: 2.3.7
+    100018: 2.4
+    100020: 2.5
+    100022: 2.6
+    100024: 2.7
+    100026: //RootNode
+    100028: Sign2.1_L0
+    100030: Sign2.1_L0 1
+    100032: Sign2.1_L1
+    100034: Sign2.1_L1 1
+    100036: Sign2.1_L2
+    100038: Sign2.1_L2 1
+    100040: Sign2.3.1_L0.
+    100042: Sign2.3.1_L01.
+    100044: Sign2.3.1_L02.
+    100046: Sign2.3.2_L0.
+    100048: Sign2.3.2_L1.
+    100050: Sign2.3.2_L2.
+    100052: Sign2.3.3_L0.
+    100054: Sign2.3.3_L1.
+    100056: Sign2.3.3_L2.
+    100058: Sign2.3.4_L0.
+    100060: Sign2.3.4_L1.
+    100062: Sign2.3.4_L2.
+    100064: Sign2.3.5_L0.
+    100066: Sign2.3.5_L1.
+    100068: Sign2.3.5_L2.
+    100070: Sign2.3.6_L0.
+    100072: Sign2.3.6_L1.
+    100074: Sign2.3.6_L1. 1
+    100076: Sign2.3.6_L1.001
+    100078: Sign2.3.6_L2.
+    100080: Sign2.3.6_L2. 1
+    100082: Sign2.3.6_L2.001
+    100084: Sign2.3.7_L0.
+    100086: Sign2.3.7_L0.001
+    100088: Sign2.5_L0
+    100090: Sign2.5_L1
+    100092: Sign2.6_L0
+    100094: Sign2.6_L1
+    100096: Sign2.6_L2
+    100098: Sign2.7_L0
+    100100: Sign2.7_L1
+    100102: Sign2.7_L2
+    100104: Sign2.2_L0
+    100106: Sign2.2_L1
+    100108: Sign2.2_L2
+    100110: Sign2.3.1_L1.
+    100112: Sign2.3.1_L2.
+    100114: Sign2.3.7_L1.
+    100116: Sign2.3.7_L2.
+    100118: Sign2.4_L0.001
+    100120: Sign2.4_L1.001
+    100122: Sign2.4_L2.001
+    100124: Sign2.4_L0.
+    100126: Sign2.4_L1.
+    100128: Sign2.4_L2.
+    400000: 2.1
+    400002: 2.2
+    400004: 2.3.1
+    400006: 2.3.2
+    400008: 2.3.3
+    400010: 2.3.4
+    400012: 2.3.5
+    400014: 2.3.6
+    400016: 2.3.7
+    400018: 2.4
+    400020: 2.5
+    400022: 2.6
+    400024: 2.7
+    400026: //RootNode
+    400028: Sign2.1_L0
+    400030: Sign2.1_L0 1
+    400032: Sign2.1_L1
+    400034: Sign2.1_L1 1
+    400036: Sign2.1_L2
+    400038: Sign2.1_L2 1
+    400040: Sign2.3.1_L0.
+    400042: Sign2.3.1_L01.
+    400044: Sign2.3.1_L02.
+    400046: Sign2.3.2_L0.
+    400048: Sign2.3.2_L1.
+    400050: Sign2.3.2_L2.
+    400052: Sign2.3.3_L0.
+    400054: Sign2.3.3_L1.
+    400056: Sign2.3.3_L2.
+    400058: Sign2.3.4_L0.
+    400060: Sign2.3.4_L1.
+    400062: Sign2.3.4_L2.
+    400064: Sign2.3.5_L0.
+    400066: Sign2.3.5_L1.
+    400068: Sign2.3.5_L2.
+    400070: Sign2.3.6_L0.
+    400072: Sign2.3.6_L1.
+    400074: Sign2.3.6_L1. 1
+    400076: Sign2.3.6_L1.001
+    400078: Sign2.3.6_L2.
+    400080: Sign2.3.6_L2. 1
+    400082: Sign2.3.6_L2.001
+    400084: Sign2.3.7_L0.
+    400086: Sign2.3.7_L0.001
+    400088: Sign2.5_L0
+    400090: Sign2.5_L1
+    400092: Sign2.6_L0
+    400094: Sign2.6_L1
+    400096: Sign2.6_L2
+    400098: Sign2.7_L0
+    400100: Sign2.7_L1
+    400102: Sign2.7_L2
+    400104: Sign2.2_L0
+    400106: Sign2.2_L1
+    400108: Sign2.2_L2
+    400110: Sign2.3.1_L1.
+    400112: Sign2.3.1_L2.
+    400114: Sign2.3.7_L1.
+    400116: Sign2.3.7_L2.
+    400118: Sign2.4_L0.001
+    400120: Sign2.4_L1.001
+    400122: Sign2.4_L2.001
+    400124: Sign2.4_L0.
+    400126: Sign2.4_L1.
+    400128: Sign2.4_L2.
+    2300000: Sign2.1_L0
+    2300002: Sign2.1_L0 1
+    2300004: Sign2.1_L1
+    2300006: Sign2.1_L1 1
+    2300008: Sign2.1_L2
+    2300010: Sign2.1_L2 1
+    2300012: Sign2.3.1_L0.
+    2300014: Sign2.3.1_L01.
+    2300016: Sign2.3.1_L02.
+    2300018: Sign2.3.2_L0.
+    2300020: Sign2.3.2_L1.
+    2300022: Sign2.3.2_L2.
+    2300024: Sign2.3.3_L0.
+    2300026: Sign2.3.3_L1.
+    2300028: Sign2.3.3_L2.
+    2300030: Sign2.3.4_L0.
+    2300032: Sign2.3.4_L1.
+    2300034: Sign2.3.4_L2.
+    2300036: Sign2.3.5_L0.
+    2300038: Sign2.3.5_L1.
+    2300040: Sign2.3.5_L2.
+    2300042: Sign2.3.6_L0.
+    2300044: Sign2.3.6_L1.
+    2300046: Sign2.3.6_L1. 1
+    2300048: Sign2.3.6_L1.001
+    2300050: Sign2.3.6_L2.
+    2300052: Sign2.3.6_L2. 1
+    2300054: Sign2.3.6_L2.001
+    2300056: Sign2.3.7_L0.
+    2300058: Sign2.3.7_L0.001
+    2300060: Sign2.5_L0
+    2300062: Sign2.5_L1
+    2300064: Sign2.6_L0
+    2300066: Sign2.6_L1
+    2300068: Sign2.6_L2
+    2300070: Sign2.7_L0
+    2300072: Sign2.7_L1
+    2300074: Sign2.7_L2
+    2300076: Sign2.2_L0
+    2300078: Sign2.2_L1
+    2300080: Sign2.2_L2
+    2300082: Sign2.3.1_L1.
+    2300084: Sign2.3.1_L2.
+    2300086: Sign2.3.7_L1.
+    2300088: Sign2.3.7_L2.
+    2300090: Sign2.4_L0.001
+    2300092: Sign2.4_L1.001
+    2300094: Sign2.4_L2.001
+    2300096: Sign2.4_L0.
+    2300098: Sign2.4_L1.
+    2300100: Sign2.4_L2.
+    3300000: Sign2.1_L0
+    3300002: Sign2.1_L0 1
+    3300004: Sign2.1_L1
+    3300006: Sign2.1_L1 1
+    3300008: Sign2.1_L2
+    3300010: Sign2.1_L2 1
+    3300012: Sign2.3.1_L0.
+    3300014: Sign2.3.1_L01.
+    3300016: Sign2.3.1_L02.
+    3300018: Sign2.3.2_L0.
+    3300020: Sign2.3.2_L1.
+    3300022: Sign2.3.2_L2.
+    3300024: Sign2.3.3_L0.
+    3300026: Sign2.3.3_L1.
+    3300028: Sign2.3.3_L2.
+    3300030: Sign2.3.4_L0.
+    3300032: Sign2.3.4_L1.
+    3300034: Sign2.3.4_L2.
+    3300036: Sign2.3.5_L0.
+    3300038: Sign2.3.5_L1.
+    3300040: Sign2.3.5_L2.
+    3300042: Sign2.3.6_L0.
+    3300044: Sign2.3.6_L1.
+    3300046: Sign2.3.6_L1. 1
+    3300048: Sign2.3.6_L1.001
+    3300050: Sign2.3.6_L2.
+    3300052: Sign2.3.6_L2. 1
+    3300054: Sign2.3.6_L2.001
+    3300056: Sign2.3.7_L0.
+    3300058: Sign2.3.7_L0.001
+    3300060: Sign2.5_L0
+    3300062: Sign2.5_L1
+    3300064: Sign2.6_L0
+    3300066: Sign2.6_L1
+    3300068: Sign2.6_L2
+    3300070: Sign2.7_L0
+    3300072: Sign2.7_L1
+    3300074: Sign2.7_L2
+    3300076: Sign2.2_L0
+    3300078: Sign2.2_L1
+    3300080: Sign2.2_L2
+    3300082: Sign2.3.1_L1.
+    3300084: Sign2.3.1_L2.
+    3300086: Sign2.3.7_L1.
+    3300088: Sign2.3.7_L2.
+    3300090: Sign2.4_L0.001
+    3300092: Sign2.4_L1.001
+    3300094: Sign2.4_L2.001
+    3300096: Sign2.4_L0.
+    3300098: Sign2.4_L1.
+    3300100: Sign2.4_L2.
+    4300000: Sign2.1_L2
+    4300002: Sign2.1_L1
+    4300004: Sign2.1_L0
+    4300006: Sign2.1_L2
+    4300008: Sign2.1_L1
+    4300010: Sign2.1_L0
+    4300012: Sign2.3.1_L02.
+    4300014: Sign2.3.1_L01.
+    4300016: Sign2.3.1_L0.
+    4300018: Sign2.3.2_L2.
+    4300020: Sign2.3.2_L1.
+    4300022: Sign2.3.2_L0.
+    4300024: Sign2.3.3_L2.
+    4300026: Sign2.3.3_L1.
+    4300028: Sign2.3.3_L0.
+    4300030: Sign2.3.4_L2.
+    4300032: Sign2.3.4_L1.
+    4300034: Sign2.3.4_L0.
+    4300036: Sign2.3.5_L2.
+    4300038: Sign2.3.5_L1.
+    4300040: Sign2.3.5_L0.
+    4300042: Sign2.3.6_L2.
+    4300044: Sign2.3.6_L1.
+    4300046: Sign2.3.6_L0.
+    4300048: Sign2.3.6_L2.
+    4300050: Sign2.3.6_L1.
+    4300052: Sign2.3.7_L0.
+    4300054: Sign2.3.6_L2.001
+    4300056: Sign2.3.6_L1.001
+    4300058: Sign2.3.7_L0.001
+    4300060: Sign2.5_L0
+    4300062: Sign2.5_L1
+    4300064: Sign2.6_L2
+    4300066: Sign2.6_L0
+    4300068: Sign2.6_L1
+    4300070: Sign2.7_L1
+    4300072: Sign2.7_L0
+    4300074: Sign2.7_L2
+    4300076: Sign2.2_L2
+    4300078: Sign2.2_L1
+    4300080: Sign2.2_L0
+    4300082: Sign2.3.1_L2.
+    4300084: Sign2.3.1_L1.
+    4300086: Sign2.3.7_L2.
+    4300088: Sign2.3.7_L1.
+    4300090: Sign2.4_L2.001
+    4300092: Sign2.4_L1.001
+    4300094: Sign2.4_L0.001
+    4300096: Sign2.4_L2.
+    4300098: Sign2.4_L1.
+    4300100: Sign2.4_L0.
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
