@@ -10,32 +10,15 @@ public class Win : MonoBehaviour
     public GameObject car;
     public TMP_Text EndText;
     public VehicleBase carRB;
-
-    void OnTriggerEnter(Collider other)
-    {
-        if (other.CompareTag("player") && (int)(carRB.speed * 3.6f) < 4)
-        {
-            restartButton.gameObject.SetActive(true);
-            menuButton.gameObject.SetActive(true);
-            Input.ResetInputAxes();
-            car.GetComponent<VPStandardInput>().enabled = false;
-            EndText.color = Color.green;
-            EndText.text = $"Молодец, практика пройдена на {3 - CarCollision.damageCount} из 3";
-            EndText.gameObject.SetActive(true);
-        }
-    }
+    public TMP_Text InstructionText;
+    public GameObject LoseWallBroke;
 
     private void OnTriggerStay(Collider other)
     {
         if (other.CompareTag("player") && (int)(carRB.speed * 3.6f) < 4)
         {
-            restartButton.gameObject.SetActive(true);
-            menuButton.gameObject.SetActive(true);
-            Input.ResetInputAxes();
-            car.GetComponent<VPStandardInput>().enabled = false;
-            EndText.color = Color.green;
-            EndText.text = $"Молодец, практика пройдена на {3 - CarCollision.damageCount} из 3";
-            EndText.gameObject.SetActive(true);
+            InstructionText.text = "Теперь развернись и едь прямо до конца. Припаркуйся на свободном месте на парковке";
+            LoseWallBroke.gameObject.SetActive(false);
         }
     }
 }

@@ -1,19 +1,17 @@
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
-using System.Linq;
 using UnityEngine.SceneManagement;
-using NUnit.Framework;
-using System.Collections.Generic;
 
 public class Menu : MonoBehaviour
 {
     public GameObject Scroll;
     public GameObject Description;
     public Button PlayButton;
-    public TMP_Text LevelNameText;
-    public TMP_Text LevelDescriptionText;
+    public Text LevelNameText;
+    public Text LevelDescriptionText;
     public Image LevelImage;
+    public GameObject AboutScreen;
     private int CurrentLevel;
 
     public void ShowLevel()
@@ -35,9 +33,12 @@ public class Menu : MonoBehaviour
     public void ShowAbout()
     {
         Scroll.SetActive(false);
+        AboutScreen.SetActive(true);
+        Description.SetActive(false);
     }
     public void ShowScroll()
     {
+        AboutScreen.SetActive(false);
         Scroll.SetActive(true);
     }
 
@@ -52,13 +53,15 @@ public class Menu : MonoBehaviour
     {
         switch (CurrentLevel)
         {
-            case 3:
+            case 2:
                 LevelNameText.text = "Общие положения";
-                LevelDescriptionText.text = "Первый базовый урок";
+                LevelDescriptionText.text = "Разбираем дорогу и её элементы";
+                LevelImage.sprite = Resources.Load<Sprite>("logo1");
                 break;
-            case 5:
-                LevelNameText.text = "Второй уровень название";
-                LevelDescriptionText.text = "Второй урок";
+            case 4:
+                LevelNameText.text = "Дорожные знаки";
+                LevelDescriptionText.text = "Разбираем знаки ПДД";
+                LevelImage.sprite = Resources.Load<Sprite>("logo2");
                 break;
 
         }

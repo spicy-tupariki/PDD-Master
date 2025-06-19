@@ -16,6 +16,9 @@ public class GameManager : MonoBehaviour
     public Button GoNextButton;
     public TMP_Text scoreTrueText;
     public TMP_Text scoreFalseText;
+    public Image EndImage;
+    public Sprite WinSprite;
+    public Sprite LoseSprite;
     private int previosCorrect;
     private int previosSelect;
     private bool alreadySelected = false;
@@ -88,7 +91,6 @@ public class GameManager : MonoBehaviour
                 //    replyButtons[i].gameObject.SetActive(false);
                 //}
             }
-            Debug.Log("sdsr");
             answerText.text = question.answerText;
             answerText.gameObject.SetActive(true);
             acceptButton.gameObject.SetActive(true);
@@ -117,11 +119,16 @@ public class GameManager : MonoBehaviour
             {
                 replyButtons[i].gameObject.SetActive(false);
             }
-            answerText.text = "Молодец, а теперь пройди практику        ";
+            answerText.text = "Молодец, а теперь пройди практику";
             answerText.gameObject.SetActive(true);
             GoNextButton.gameObject.SetActive(true);
             questionImage.gameObject.SetActive(false);
             questionText.gameObject.SetActive(false);
+            if ((int.Parse(scoreTrueText.text) > selectedCategory.questions.Length / 2))
+                EndImage.sprite = WinSprite;
+            else
+                EndImage.sprite = LoseSprite;
+            EndImage.gameObject.SetActive(true);
         }
         alreadySelected = false;
     }

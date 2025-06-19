@@ -47,12 +47,10 @@ public class CarSceneOne : MonoBehaviour
     public float timePurpleMax;
 
     public TMP_Text resultText;
-    public Button againButton;
-    public Button menuButton;
+    public GameObject EndScreen;
 
     private static bool complete = true;
 
-    public Level1UI UIScript;
     public void Start()
     {
         grey = false;
@@ -144,14 +142,12 @@ public class CarSceneOne : MonoBehaviour
     {
         if (complete)
         {
-            resultText.text = "Молодец, всё верно!";
+            resultText.text = "Всё решено верно!";
         }
         else
         {
             resultText.text = "Не совсем, попробуй снова";
         }
-        resultText.gameObject.SetActive(true);
-        againButton.gameObject.SetActive(true);
-        menuButton.gameObject.SetActive(true);
+        EndScreen.gameObject.SetActive(true);
     }
 }

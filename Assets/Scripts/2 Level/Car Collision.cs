@@ -15,6 +15,7 @@ public class CarCollision : MonoBehaviour
     public Button menuButton;
     public GameObject car;
     public TMP_Text EndText;
+    public Image EndBack;
 
     private void OnCollisionEnter(Collision collision)
     {
@@ -33,10 +34,11 @@ public class CarCollision : MonoBehaviour
         {
             restartButton.gameObject.SetActive(true);
             menuButton.gameObject.SetActive(true);
+            EndBack.gameObject.SetActive(true);
             Input.ResetInputAxes();
             car.GetComponent<VPStandardInput>().enabled = false;
             EndText.color = Color.red;
-            EndText.text = "Ты допустил серьезную ошибку, попробуй пройти заново";
+            EndText.text = "Ты допустил серьезную ошибку! \n Попробуй пройти заново.";
             EndText.gameObject.SetActive(true);
         }
     }
@@ -53,8 +55,18 @@ public class CarCollision : MonoBehaviour
         cooldownTime += Time.deltaTime;
     }
 
-    public static void GetDamage()
+    public void GetDamage()
     {
-        damageCount++;
+        if (cooldownTime > 2f)
+        {
+            cooldownTime = 0f;
+            damageCount++;
+            if (damageCount == 1)
+                star1.gameObject.SetActive(false);
+            else if (damageCount == 2)
+                star2.gameObject.SetActive(false);
+            else
+                star3.gameObject.SetActive(false);
+        }
     }
 }

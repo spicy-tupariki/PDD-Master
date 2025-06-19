@@ -140,13 +140,13 @@ public class AiCarController : MonoBehaviour
 
         if (CanMoveBlock1)
         {
-            MoveCar(Move1FL, Move1FR, Move1RL, Move1RR, Move1FLTr, Move1FRTr, Move1RLTr, Move1RRTr, angle:15);
+            MoveCar(Move1FL, Move1FR, Move1RL, Move1RR, Move1FLTr, Move1FRTr, Move1RLTr, Move1RRTr, angle:-9.5f);
         }
 
     }
     
     private void MoveCar(WheelCollider FL, WheelCollider FR, WheelCollider RL, WheelCollider RR,
-        Transform FLTr, Transform FRTr, Transform RLTr, Transform RRTr, int angle=0)
+        Transform FLTr, Transform FRTr, Transform RLTr, Transform RRTr, float angle=0)
     {
         FL.motorTorque = forse;
         FR.motorTorque = forse;

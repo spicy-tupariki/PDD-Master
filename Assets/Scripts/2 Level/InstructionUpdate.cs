@@ -29,7 +29,7 @@ public class InstructionUpdate : MonoBehaviour
                 {
                     _isKeyPressed = false; // Сброс
                                            // Здесь вызывайте нужное действие
-                    instructionText.text = "Молодец, теперь нажми на клавишу 1, чтобы включить первую скорость";
+                    instructionText.text = "Молодец, теперь нажми на клавишу (1), чтобы включить первую скорость";
                     step++;
                 }
             }
@@ -38,7 +38,7 @@ public class InstructionUpdate : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.Alpha1))
             {
-                instructionText.text = "Молодец, теперь начинай движение вперед клавишей W, а также поворачивай влева на A и вправо на D при необходимочти. Пробел - тормоз";
+                instructionText.text = "Молодец, теперь начинай движение вперед клавишей (W), а также поворачивай влево на (A) и вправо на (D) при необходимочти. (Пробел) - тормоз";
                 step++;
             }
         }
